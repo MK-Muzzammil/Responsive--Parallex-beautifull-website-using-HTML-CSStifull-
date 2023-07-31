@@ -1,0 +1,88 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+html,body{
+  background-color: lightgrey;
+  height: 100%;
+  border: 1px solid black;
+  font-size: 16px;
+  font-family: "lato",sans-serif;
+  font-weight: 400;
+  line-height:1.8em;
+  color:white;
+}
+.pImage1{
+  background-image:  url('images/image1.png');
+  min-height: 100%;
+
+
+}
+.pImage2{
+  background-image:  url('images/image2.png');
+  min-height: 60%;
+
+}
+.pImage3{
+  background-image:  url('images/image3.png');
+  min-height: 60%;
+
+}
+.pImage1,.pImage2,.pImage3{
+  position:relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+#span1{
+  background-color:black;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 1.2rem 2rem;
+  margin-top: 15rem;
+  letter-spacing: 8px;
+}
+span{
+  background-color:black;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 1.2rem 2rem;
+  margin-top: 7rem;
+  letter-spacing: 8px;
+  
+
+}
+.section1{
+  padding: 4rem 5rem;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+.section2,.section3{
+  padding: 4rem 5rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+h2{
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
